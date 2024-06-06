@@ -1,0 +1,1 @@
+g++ -std=c++11 main.cpp entity.cpp heuristics.cpp api.cpp -ljsoncpp -lcurl -ljsonrpccpp-common -ljsonrpccpp-client -lssl -lcrypto -I/usr/local/include/mongocxx/v_noabi/ -I/usr/local/include/bsoncxx/v_noabi/ -I/usr/local/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc/ -L/usr/local/lib -lmongocxx -lbsoncxx -o runheuristics.out
